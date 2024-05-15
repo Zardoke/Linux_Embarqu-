@@ -19,8 +19,10 @@ On configure le port série sur le pc fixe de l'école sur linux.
 
 <h3>1.3.2 Utilisez un logiciel de liaison série</h3>
 <h3>1.3.3 Configuration réseau</h3><br>
-- Après avoir Brancher la carte VEEK sur le switch via un câble réseau. On utilise la commande ifconfig, 
+- Après avoir Brancher la carte VEEK sur le switch via un câble réseau. On utilise la commande ifconfig.
+
 ![image](https://github.com/Zardoke/Linux_Embarqu-/assets/144770542/5665eab8-6811-42dd-86a6-b7cada56544c)
+L'adresse IP 
 ![image](https://github.com/Zardoke/Linux_Embarqu-/assets/144770542/a5a9b624-bfd7-4bd0-9772-5420f4a0f3ef)
 
 
