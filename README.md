@@ -14,6 +14,7 @@ allumez-la : bouton rouge ! Ça clignote de partout et un linux se lance.
 
 <h2>1.3 Connexion au système</h2>
 <h3>1.3.1 Liaison série</h3>
+On configure le port série sur le pc fixe de l'école sur linux.
 <h3>1.3.2 Utilisez un logiciel de liaison série</h3>
 
 
