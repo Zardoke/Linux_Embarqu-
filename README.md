@@ -32,6 +32,9 @@ On ouvre Tera Term.
 On tape alors la commande "ifconfig" pour connaitre la configuration de notre carte.
 ![image](https://github.com/Zardoke/Linux_Embarqu-/assets/144770542/966db5c2-3f93-4b2b-9bd9-f28907c7c337)<br>
 
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/180d23c4-79fd-47d7-9958-b551fc8cf1ab)<br>
+
+
 
 
 
