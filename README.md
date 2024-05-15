@@ -48,6 +48,11 @@ On est déjà loggé en ssh sur la carte VEEK, avec Tera Term dans notre cas, et
 
 <h2>1.4 Découverte de la cible</h2>
 <h3>1.4.1 Exploration des dossiers /sys/class et /proc</h3>
+Explorons un peu votre environnement:
+- Répertoires présent sous la racine
+
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/52103ce8-0883-4c2a-9447-7ee739392c68)<br>
+
 
 
 
