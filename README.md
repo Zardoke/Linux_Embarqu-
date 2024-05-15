@@ -1,5 +1,5 @@
 # Linux_Embarqué
-1 Prise en main
+<h1>1 Prise en main</h1>
 1.1 Préparation de la carte SD
 - Téléchargement "TP_linux.zip"
 - Zipper "TP_linux.zip"
