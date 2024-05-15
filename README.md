@@ -40,8 +40,8 @@ Après avoir reboot la carte, on vérifie l'adresse IP sur le PC fixe avec la co
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/a8fc653e-26e4-45ee-9fb6-21453af92674)<br>
 On a bien dans le fichier /etc/ssh/sshd_config, la ligne suivante est
 présente :"PermitEmptyPasswords yes"<br>
-
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/a16ba886-490e-417f-b066-9c8da6a39a7d)<br>
+Pour quitter le fichier on fait ":wq" puis on appuie sur entrer. <br>
 
 
 
