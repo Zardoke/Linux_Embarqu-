@@ -55,7 +55,8 @@ Explorons un peu votre environnement:
 
 <h3>1.4.2 Compilation croisée</h3>
 Après avoir téléchargé Oracle VM VirtualBox (V7.0.18), on importe la VM "VM-SOC-2019.ova" dans le dossier dizipé de moodle.
-Avant de lancer la VM on viens la configurer et cloner le github créer
+Avant de lancer la VM on viens la configurer et cloner le github créer.
+
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/a9722051-a116-49f3-a14e-6ce5fe3f9064)<br>
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/33dec82b-66ed-4845-9ad7-e1ef13ee2a26)<br>
 
