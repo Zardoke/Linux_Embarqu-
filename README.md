@@ -25,6 +25,9 @@ On configure le port série sur le pc fixe de l'école sur linux.
 
 ![image](https://github.com/Zardoke/Linux_Embarqu-/assets/144770542/c5bd599b-0f6d-4339-aae7-954378bfbf9a)
 
+![image](https://github.com/Zardoke/Linux_Embarqu-/assets/144770542/966db5c2-3f93-4b2b-9bd9-f28907c7c337)
+
+
 
 
 
