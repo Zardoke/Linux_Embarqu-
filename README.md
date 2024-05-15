@@ -43,8 +43,11 @@ présente :"PermitEmptyPasswords yes"<br>
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/a16ba886-490e-417f-b066-9c8da6a39a7d)<br>
 Pour quitter le fichier on fait ":wq" puis on appuie sur entrer. <br>
 
-On vérifie qu'on peut se logger en ssh sur la carte VEEK, avec Putty ou Tera Term dans notre cas:
+On est déjà loggé en ssh sur la carte VEEK, avec Tera Term dans notre cas, et donc on utilise pas non plus le port série.
 
+
+<h2>1.4 Découverte de la cible</h2>
+<h3>1.4.1 Exploration des dossiers /sys/class et /proc</h3>
 
 
 
