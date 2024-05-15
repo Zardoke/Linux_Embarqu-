@@ -38,6 +38,8 @@ On tape alors la commande "ifconfig" pour connaitre la configuration de notre ca
 On reboot avec la commande "reboot"
 Après avoir reboot la carte, on vérifie l'adresse IP sur le PC fixe avec la commande "ifconfig" (bien branché la carte en USB)<br>
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/a8fc653e-26e4-45ee-9fb6-21453af92674)<br>
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/a16ba886-490e-417f-b066-9c8da6a39a7d)<br>
+
 
 
 
