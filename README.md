@@ -5,8 +5,17 @@
 - Zipper "TP_linux.zip"
 - Installation du logiciel Win32DiskImager </br>
 Nous disposons d'une carte microSD de 4GB. Le disquede la microSD est partition en 3. On utilise l'image VEEK_MT2S_LXDE/VEEK_MT2S_LXDE.img  </br>
-![image](https://github.com/Zardoke/Linux_Embarqu-/assets/144770542/1f6053ec-41dd-4afa-be3a-8c92fd944776)  </br>
+![image](https://github.com/Zardoke/Linux_Embarqu-/assets/144770542/1f6053ec-41dd-4afa-be3a-8c92fd944776) </br>
 ![image](https://github.com/Zardoke/Linux_Embarqu-/assets/144770542/9e8b31c6-0956-4057-8ef4-cc0123fdee48) </br>
+
+1.2 Démarrage
+Maintenant qu'on a flasher la carte SD.On insérez la carte SD fraichement programmée, branchez la carte VEEK-MT2S et
+allumez-la : bouton rouge ! Ça clignote de partout et un linux se lance.
+
+1.3 Connexion au système
+1.3.1 Liaison série
+1.3.2 Utilisez un logiciel de liaison série
+
 
 
 
