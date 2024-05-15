@@ -20,7 +20,8 @@ On configure le port série sur le pc fixe de l'école sur linux.
 <h3>1.3.2 Utilisez un logiciel de liaison série</h3>
 <h3>1.3.3 Configuration réseau</h3>
 ![image](https://github.com/Zardoke/Linux_Embarqu-/assets/144770542/5665eab8-6811-42dd-86a6-b7cada56544c)
-![Uploading image.png…]()
+![image](https://github.com/Zardoke/Linux_Embarqu-/assets/144770542/a5a9b624-bfd7-4bd0-9772-5420f4a0f3ef)
+
 
 ![image](https://github.com/Zardoke/Linux_Embarqu-/assets/144770542/c5bd599b-0f6d-4339-aae7-954378bfbf9a)
 
