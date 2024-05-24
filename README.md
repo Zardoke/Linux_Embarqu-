@@ -104,11 +104,10 @@ Tester d’allumer et d’éteindre d’autres LED.<br>
 
 <h1>2 Modules kernel (TP2)</h1>
 <h2>2.0 Reprise du TP1</h2>
-
+Le but de cettte partie du TP  est de créer un programme qui accède directement aux registres depuis l’espace utilisateur.
 On veut directement accéder aux registres depuis l’espace utilisateur.
-Il faut en effet remapper
-la mémoire pour demander à l’OS de nous fournir une adresse virtuelle.
-Tout et les adresses son virtuelle mais vont être convertie en Hardware par le MMU.
+Il faut en effet remapper la mémoire pour demander à l’OS de nous fournir une adresse virtuelle.
+Tout les adresses son virtuelles mais vont être convertie en Hardware par le MMU.
 Pour cela, on utilisera la fonction mmap()
 
 Les limites sont tout d'abord d'un point de vu Sécurité puisqu'un utilisateur peut accéder directement aux registres matériels. Les utilisateurs malveillants ou mal informés peuvent corrompre des données, provoquer des pannes système, ou endommager le matériel.
