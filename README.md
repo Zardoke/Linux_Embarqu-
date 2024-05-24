@@ -77,10 +77,14 @@ On vient alors lancer la VM <br>
 On vient maintenant créer un fichier "hello.c" avec Notpad++ dans notre dossier de la VM <br>
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/cf88ce02-2d82-4d57-8808-f38e98ddd897)<br>
 
-Pour compiler sur la VM, on utilise le cross-compilateur :
+L'adresse IP de notre carte SOC ayant changer. On utilise la commande "ip -a" pour récupèrer notre nouvelle adresse IP"192.168.88.63" dans Tera Term VT.<br>
+Pour compiler sur la VM le fichier "hello.c", on utilise le cross-compilateur :
 "arm-linux-gnueabihf-gcc hello.c -o hello.o"
 On oublie pas avant d'exécuter la commande de se mettre dans le dossier "src"
-![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/e93eddbe-b898-4dbd-ad7a-2eefe6d78687)<br>
+On verifie dans Tera Term qu'affiche bien "Hello world !" avec la commande ".\hello.o"
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/2d9a25e3-fde9-4b79-8e9b-f832d9989632)<br>
+
+
 
 
 
