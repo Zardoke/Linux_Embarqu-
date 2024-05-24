@@ -113,6 +113,10 @@ Pour cela, on utilisera la fonction mmap()
 Les limites sont tout d'abord d'un point de vu Sécurité puisqu'un utilisateur peut accéder directement aux registres matériels. Les utilisateurs malveillants ou mal informés peuvent corrompre des données, provoquer des pannes système, ou endommager le matériel.
 
 
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/de1312c7-43d0-4868-8dfe-0c71ce28e3df)<br>
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/135b028c-f7d6-4f88-9566-dc208568dd1e)<br>
+
+
 
 
 
