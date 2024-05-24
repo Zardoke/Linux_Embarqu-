@@ -126,9 +126,17 @@ Pour compiler des modules noyau dans la VM, nous avons installé les paquets sui
 "sudo apt install linux-headers-amd64"<br>
 "sudo apt install bc"<br>
 On vient aussi creer un dossier dans lequel on à dézippé le module fourni sur module.
+La commande make permet de compiler notre module à partir de son code source.
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/f5c44aff-2236-4ae2-9938-2292bd8e077a)<br>
-
+La comamnde "modinfo": Affiche des informations sur un module du noya (sa version, son auteur, ses dépendances).<br>
+lsmod: permet de lister les modules actuellement chargés dans le noyau Linux. Cela vous permet de voir quels modules sont en cours d'exécution sur votre système à un moment donné.<br>
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/1a09121f-d355-40f9-91ae-7e68209d3684)<br>
+
+La commannde "insmod" est utilisée pour insérer un module dans le noyau Linux.
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/2b55d8fb-7fe9-4e15-96f3-fdfe0ac793d5)<br>
+
+Commande "sudo rmmod" mmod est utilisée pour retirer un module du noyau Linux.<br>
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/71abaeb9-28b7-49d8-9e5d-67f669db0d29)<br>
 
 <h3>2.3.0 Récupération du Noyau Terasic (c’est déjà fait dans la VM !)</h3>
 
