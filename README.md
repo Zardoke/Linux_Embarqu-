@@ -77,6 +77,9 @@ On vient alors lancer la VM <br>
 On vient maintenant créer un fichier "hello.c" avec Notpad++ dans notre dossier de la VM <br>
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/cf88ce02-2d82-4d57-8808-f38e98ddd897)<br>
 
+Pour compiler sur la VM, on utilise le cross-compilateur :
+"arm-linux-gnueabihf-gcc hello.c -o hello.o"
+
 
 
 
