@@ -59,6 +59,9 @@ Avant de lancer la VM on viens la configurer et cloner le github créer avec Git
 
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/a9722051-a116-49f3-a14e-6ce5fe3f9064)<br>
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/33dec82b-66ed-4845-9ad7-e1ef13ee2a26)<br>
+On vient alors lancer la VM <br>
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/f5872c33-846f-4bac-a750-534d83b937f9)<br>
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/95fd4ab4-f110-4c74-8b3e-be09f61660ae)<br>
 
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/26c54f30-909e-4b07-8f11-3621e9b28c3d)<br>
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/8fc5bbaa-7916-4ba7-ba0c-597620695427)<br>
