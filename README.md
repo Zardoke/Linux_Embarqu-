@@ -52,9 +52,33 @@ Explorons un peu votre environnement:
 - Répertoires présent sous la racine
 
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/52103ce8-0883-4c2a-9447-7ee739392c68)<br>
+
+<h3>1.4.2 Compilation croisée</h3>
+Après avoir téléchargé Oracle VM VirtualBox (V7.0.18), on importe la VM "VM-SOC-2019.ova" dans le dossier dizzipé de moodle.
+Avant de lancer la VM on viens la configurer et cloner le github créer avec Github Destop.
+
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/a9722051-a116-49f3-a14e-6ce5fe3f9064)<br>
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/33dec82b-66ed-4845-9ad7-e1ef13ee2a26)<br>
+On vient alors lancer la VM <br>
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/95fd4ab4-f110-4c74-8b3e-be09f61660ae)<br>
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/f5872c33-846f-4bac-a750-534d83b937f9)<br>
+
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/26c54f30-909e-4b07-8f11-3621e9b28c3d)<br>
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/8fc5bbaa-7916-4ba7-ba0c-597620695427)<br>
 
+<h3>1.4.3 Hello world !</h3>
+
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/73c5c860-bc86-4a96-b569-c9eb5c361192)<br>
+
+<h3>Séance 2</h3>  <br>
+
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/fc21cf7c-28c7-499c-a131-82f07ca01480)<br>
+
+On vient maintenant créer un fichier "hello.c" avec Notpad++ dans notre dossier de la VM <br>
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/cf88ce02-2d82-4d57-8808-f38e98ddd897)<br>
+
+Pour compiler sur la VM, on utilise le cross-compilateur :
+"arm-linux-gnueabihf-gcc hello.c -o hello.o"
 
 
 
