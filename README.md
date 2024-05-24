@@ -80,11 +80,18 @@ On vient maintenant créer un fichier "hello.c" avec Notpad++ dans notre dossier
 L'adresse IP de notre carte SOC ayant changer. On utilise la commande "ip -a" pour récupèrer notre nouvelle adresse IP"192.168.88.63" dans Tera Term VT.<br>
 Pour compiler sur la VM le fichier "hello.c", on utilise le cross-compilateur :
 "arm-linux-gnueabihf-gcc hello.c -o hello.o"
-On oublie pas avant d'exécuter la commande de se mettre dans le dossier "src"
-On verifie dans Tera Term qu'affiche bien "Hello world !" avec la commande ".\hello.o"
+On oublie pas avant d'exécuter la commande de se mettre dans le dossier "src"<br>
+On verifie dans Tera Term qu'affiche bien "Hello world !" avec la commande ".\hello.o"<br>
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/2d9a25e3-fde9-4b79-8e9b-f832d9989632)<br>
 
 <h3>1.4.4 Accès au matériel</h3>
+Un certain nombre de drivers sont fournis. Comme tous les drivers sous Linux,
+ils sont accessible sous forme de fichiers. Par exemple pour allumer l’une des LED
+rouge de la carte, il suffit d’écrire un ’1’ dans le fichier brightness.
+La commande "echo "1" > /sys/class/leds/fpga_led4/brightness" allume la LED 4.
+Tester d’allumer et d’éteindre d’autres LED.<br>
+
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/a9d841ba-0c2b-4cec-90dc-70a0ddeda049)<br>
 
 <h3>1.4.5 Chenillard (Et oui, encore !)</h3>
 
