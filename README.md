@@ -84,6 +84,16 @@ On oublie pas avant d'exécuter la commande de se mettre dans le dossier "src"
 On verifie dans Tera Term qu'affiche bien "Hello world !" avec la commande ".\hello.o"
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/2d9a25e3-fde9-4b79-8e9b-f832d9989632)<br>
 
+<h3>1.4.4 Accès au matériel</h3>
+
+<h3>1.4.5 Chenillard (Et oui, encore !)</h3>
+
+<h1>2 Modules kernel (TP2)</h1>
+<h2>2.0 Reprise du TP1</h2>
+
+
+
+
 
 
 
