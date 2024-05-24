@@ -95,7 +95,14 @@ Tester d’allumer et d’éteindre d’autres LED.<br>
 
 <h3>1.4.5 Chenillard (Et oui, encore !)</h3>
 
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/bfb81c54-05b0-4a6e-aa13-7530846e7082)<br>
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/437f1856-ac37-4acc-8725-019c5d916df5)<br>
+
+
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/5f00212e-64b4-4890-963c-6462730416b3)<br>
+
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/99706b2e-5dae-4864-b185-70ae006ddca6)<br>
+
 
 <h1>2 Modules kernel (TP2)</h1>
 <h2>2.0 Reprise du TP1</h2>
