@@ -73,6 +73,9 @@ On vient alors lancer la VM <br>
 <h3>Séance 2</h3>  <br>
 
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/fc21cf7c-28c7-499c-a131-82f07ca01480)<br>
+On vient maintenant créer un fichier "Hello.c" avec Notpad++ dans notre dossier <br>
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/cf88ce02-2d82-4d57-8808-f38e98ddd897)<br>
+
 
 
 
