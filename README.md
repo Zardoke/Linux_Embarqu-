@@ -71,6 +71,7 @@ On vient alors lancer la VM <br>
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/73c5c860-bc86-4a96-b569-c9eb5c361192)<br>
 
 <h3>Séance 2</h3>  <br>
+
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/fc21cf7c-28c7-499c-a131-82f07ca01480)<br>
 
 
