@@ -104,6 +104,7 @@ Tester d’allumer et d’éteindre d’autres LED.<br>
 
 <h1>2 Modules kernel (TP2)</h1>
 <h2>2.0 Reprise du TP1</h2>
+<h2>2.1 Accès aux registres</h2>
 Le but de cettte partie du TP  est de créer un programme qui accède directement aux registres depuis l’espace utilisateur.
 On veut directement accéder aux registres depuis l’espace utilisateur.
 Il faut en effet remapper la mémoire pour demander à l’OS de nous fournir une adresse virtuelle.
@@ -112,10 +113,18 @@ Pour cela, on utilisera la fonction mmap()
 
 Les limites sont tout d'abord d'un point de vu Sécurité puisqu'un utilisateur peut accéder directement aux registres matériels. Les utilisateurs malveillants ou mal informés peuvent corrompre des données, provoquer des pannes système, ou endommager le matériel.
 
+<h2>2.2 Compilation de module noyau sur la VM</h2>
+
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/de1312c7-43d0-4868-8dfe-0c71ce28e3df)<br>
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/135b028c-f7d6-4f88-9566-dc208568dd1e)<br>
 Voici le Code qui crée un effet chenillard en contrôlant les LEDs à l'aide des registres mémoire mappés.
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/302dfc25-8c3c-46c3-af82-258e76033ce3)<br>
+
+<h2>2.3 CrossCompilation de modules noyau</h2>
+<h3>2.3.0 Récupération du Noyau Terasic (c’est déjà fait dans la VM !)</h3>
+
+<h3>2.3.1 Préparation de la compilation</h3>
+
 
 
 
