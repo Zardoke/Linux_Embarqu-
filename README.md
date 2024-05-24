@@ -122,15 +122,13 @@ Voici le Code qui crée un effet chenillard en contrôlant les LEDs à l'aide de
 
 <h2>2.3 CrossCompilation de modules noyau</h2>
 
-Pour compiler des modules noyau dans la VM, vous aurez besoin des paquets
-suivant :
+Pour compiler des modules noyau dans la VM, nous avons installé les paquets suivant :
 "sudo apt install linux-headers-amd64"<br>
 "sudo apt install bc"<br>
-On vient aussi creer un dossier dans lequel on à dézippé du module fourni sur module.
+On vient aussi creer un dossier dans lequel on à dézippé le module fourni sur module.
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/f5c44aff-2236-4ae2-9938-2292bd8e077a)<br>
 
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/1a09121f-d355-40f9-91ae-7e68209d3684)<br>
-
 
 <h3>2.3.0 Récupération du Noyau Terasic (c’est déjà fait dans la VM !)</h3>
 
