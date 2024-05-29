@@ -154,7 +154,9 @@ On utilise la commande (sudo) pour avoir les droits administrateur.<br>
 
 En résumé, ces commandes installent les outils nécessaires pour effectuer une compilation croisée (cross-compilation) pour une cible ARM sous un environnement de développement basé sur un PC avec architecture x86.<br>
 
-<h3>2.3.2 Récupéreation de la configuration actuelle du noyau</h3>
+<h3>2.3.2 Récupération de la configuration actuelle du noyau</h3>
+
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/7a41fd01-c6df-4228-bbf9-09fc90a29ff3)<br>
 
 1) Récupération et décompression de la configuration du noyau :
 2) Préparation de l'environnement de compilation :
