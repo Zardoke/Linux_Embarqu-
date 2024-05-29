@@ -158,7 +158,18 @@ En résumé, ces commandes installent les outils nécessaires pour effectuer une
 
 1) Récupération et décompression de la configuration du noyau :
 2) Préparation de l'environnement de compilation :
-3) 
+   Export CROSS_COMPILE=<chemin_arm-linux-gnueabihf-> :
+Cette ligne définit la variable d'environnement CROSS_COMPILE qui préfixe tous les outils de compilation (comme gcc, ld, etc.) avec le chemin spécifié. Le chemin doit pointer vers les outils de compilation croisée pour ARM (par exemple, /usr/bin/arm-linux-gnueabihf-). Le tiret à la fin est important car il permet de compléter les noms des outils de compilation (par exemple, arm-linux-gnueabihf-gcc).
+
+export ARCH=arm :
+Cette ligne définit la variable d'environnement ARCH qui indique au système de build que l'architecture cible est ARM.
+
+make prepare :
+Cette commande prépare les fichiers de configuration et les dépendances nécessaires pour compiler le noyau. Cela inclut la génération de certains fichiers d'en-tête et de scripts nécessaires pour le processus de compilation.
+
+make scripts :
+Cette commande génère des scripts nécessaires pour la compilation du noyau. Cela inclut la génération de certains scripts utilisés par les Makefiles du noyau.
+4) 
 
 On va copier le config.gz dans la VM.
 On le décompresse.
