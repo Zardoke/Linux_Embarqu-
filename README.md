@@ -202,6 +202,10 @@ On veut mettre àjour le chemin vers le noyau.
 
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/254f164a-8e6e-4827-9214-42a5bd3189cc)<br>
 
+Localisation du fichier Makefile :
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/b0961b66-bd37-46ec-97bd-2f409239560a)<br>
+
+
 
 
 
