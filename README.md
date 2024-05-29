@@ -217,6 +217,8 @@ cp -r ~/src/TP2 ~/
 <h4>4) Transfert et Chargement du Module sur la Carte SoC</h4>
 Une fois le module compilé (le fichier hello.ko), on le copie sur la carte SoC. On utilise l'outil comme scp pour le transfert.
 
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/27d1dd6d-e066-4886-92b1-ab0b0faacc15)<br>
+
 <h3>2.3.4 Chenillard (Yes !)</h3>
 //Pas à faire//
 
