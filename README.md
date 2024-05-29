@@ -199,12 +199,24 @@ Le tiret final est crucial car il permet de séparer le préfixe du nom de l'out
 
 <h3>2.3.3 Hello World</h3>
 On veut mettre àjour le chemin vers le noyau.
+<h4>1) Pour ce faire on modifie le Makefile.</h4>
 
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/254f164a-8e6e-4827-9214-42a5bd3189cc)<br>
 
-Localisation du fichier Makefile :<br>
+<h4>2) Localisation du fichier Makefile :</h4><br>
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/d022459d-a0c5-4fd2-8e66-704a7cef35fa)<br>
 
+Compiler dans le répertoire partagé avec Windows ("opération non permise"). Il faudra donc copier
+tout le répertoire en dehors du dossier ~/src. 
+Le plus simple reste de copier le dossier ailleurs :
+cp -r ~/src/TP2 ~/
+
+<h4>3) Puis on compile le module avec la commande "make"</h4>
+
+<h4>4) Transfert et Chargement du Module sur la Carte SoC</h4>
+Une fois le module compilé (vous aurez un fichier hello.ko), copiez-le sur la carte SoC. Vous pouvez utiliser des outils comme scp pour le transfert.
+
+<h3>2.3.4 Chenillard (Yes !)</h3>
 
 
 
