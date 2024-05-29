@@ -206,11 +206,12 @@ On veut mettre àjour le chemin vers le noyau.
 <h4>2) Localisation du fichier Makefile :</h4><br>
 
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/d022459d-a0c5-4fd2-8e66-704a7cef35fa)<br>
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/27167960-ec26-4500-962f-359a35d415a6)
 
 Compiler dans le répertoire partagé avec Windows ("opération non permise"). Il faudra donc copier
 tout le répertoire en dehors du dossier ~/src. 
 Le plus simple reste de copier le dossier ailleurs :
-cp -r ~/src/TP2 ~/
+cp -r ~/src/NoyauVM/
 
 <h4>3) Puis on compile le module avec la commande "make"</h4>
 
