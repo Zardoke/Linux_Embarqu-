@@ -204,6 +204,9 @@ Le tiret final est crucial car il permet de séparer le préfixe du nom de l'out
 
 <h3>2.3.3 Hello World</h3>
 
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/254f164a-8e6e-4827-9214-42a5bd3189cc)<br>
+
+
 
 
 
