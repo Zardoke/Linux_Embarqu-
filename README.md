@@ -203,7 +203,7 @@ gcc devient arm-linux-gnueabihf-gcc
 Le tiret final est crucial car il permet de séparer le préfixe du nom de l'outil, évitant ainsi toute confusion et permettant aux scripts de build de trouver les outils appropriés pour l'architecture cible.
 
 <h3>2.3.3 Hello World</h3>
-
+On veut mettre àjour le chemin vers le noyau.
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/254f164a-8e6e-4827-9214-42a5bd3189cc)<br>
 
 
