@@ -215,7 +215,7 @@ cp -r ~/src/TP2 ~/
 <h4>3) Puis on compile le module avec la commande "make"</h4>
 
 <h4>4) Transfert et Chargement du Module sur la Carte SoC</h4>
-Une fois le module compilé (vous aurez un fichier hello.ko), copiez-le sur la carte SoC. Vous pouvez utiliser des outils comme scp pour le transfert.
+Une fois le module compilé (le fichier hello.ko), on le copie sur la carte SoC. On utilise l'outil comme scp pour le transfert.
 
 <h3>2.3.4 Chenillard (Yes !)</h3>
 
