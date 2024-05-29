@@ -158,10 +158,26 @@ En résumé, ces commandes installent les outils nécessaires pour effectuer une
 
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/7a41fd01-c6df-4228-bbf9-09fc90a29ff3)<br>
 
-1) Récupération et décompression de la configuration du noyau :
+1) <h4>Récupération et décompression de la configuration du noyau :</h4>
+cp /proc/config.gz ~/linux-socfpga/
 Ces commandes décompressent le fichier config.gz (qui contient la configuration actuelle du noyau) et le renomme en .config, le fichier de configuration utilisé par les scripts de compilation du noyau.
-2) Préparation de l'environnement de compilation :
-   Export CROSS_COMPILE=<chemin_arm-linux-gnueabihf-> :
+
+3)   Décompression du fichier et renommage :
+cd ~/linux-socfpga/
+gunzip config.gz
+mv config .config
+
+<h4>Préparation de l'Environnement de Compilation</h4>
+Ensuite, vous devez configurer l'environnement de compilation croisée pour ARM et préparer les sources du noyau :
+
+1) Définir les variables d'environnement :
+
+sh
+Copier le code
+export CROSS_COMPILE=<chemin_arm-linux-gnueabihf->
+export ARCH=arm
+
+2) Export CROSS_COMPILE=<chemin_arm-linux-gnueabihf-> :
 Cette ligne définit la variable d'environnement CROSS_COMPILE qui préfixe tous les outils de compilation (comme gcc, ld, etc.) avec le chemin spécifié. Le chemin doit pointer vers les outils de compilation croisée pour ARM (par exemple, /usr/bin/arm-linux-gnueabihf-). Le tiret à la fin est important car il permet de compléter les noms des outils de compilation (par exemple, arm-linux-gnueabihf-gcc).
 
 export ARCH=arm :
