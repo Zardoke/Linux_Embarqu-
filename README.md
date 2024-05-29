@@ -167,19 +167,14 @@ cd ~/linux-socfpga/
 gunzip config.gz
 mv config .config
 
-3) <h4>Préparation de l'Environnement de Compilation</h4>
-Ensuite, vous devez configurer l'environnement de compilation croisée pour ARM et préparer les sources du noyau :
+3) <h4>Définir les variables d'environnement :</h4>
 
-4) <h4>Définir les variables d'environnement :</h4>
-
-sh
 Copier le code
 export CROSS_COMPILE=<chemin_arm-linux-gnueabihf-></h4>
 export ARCH=arm
 
-5) <h4>Préparer les sources du noyau :
+4) <h4>Préparer les sources du noyau :
 
-sh
 Copier le code
 make prepare
 make scripts
@@ -204,7 +199,9 @@ Le tiret final est crucial car il permet de séparer le préfixe du nom de l'out
 
 <h3>2.3.3 Hello World</h3>
 On veut mettre àjour le chemin vers le noyau.
+
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/254f164a-8e6e-4827-9214-42a5bd3189cc)<br>
+
 
 
 
