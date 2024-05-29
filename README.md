@@ -218,6 +218,7 @@ cp -r ~/src/TP2 ~/
 Une fois le module compilé (le fichier hello.ko), on le copie sur la carte SoC. On utilise l'outil comme scp pour le transfert.
 
 <h3>2.3.4 Chenillard (Yes !)</h3>
+//Pas à faire//
 
 <h1>3 Device tree (TP3)</h1>
 
