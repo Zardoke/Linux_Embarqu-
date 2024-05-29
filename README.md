@@ -231,9 +231,15 @@ On voit bien sur les 2 dernières lignes le "Hello World ! et le "Bye bye..."
 //Pas à faire//
 
 <h1>3 Device tree (TP3)</h1>
+L’objectif de ce TP est de définir son propre périphérique, et de programmer un module qui identifie la présence du périphérique et se configure automatiquement en sa présence. Cet automatisme s’appuye sur le Device Tree.
+Nous voulons accéder aux LED en direct. Or le device-tree étant déjà configuré, ces leds sont déjà utilisées par les drivers fournis par Altera, ce qui nous empêche d’y accéder. Pour éviter cela, 2 possibilités :
+— Modifier le fichier dts existant ;
+— Recréer son propre design avec QSYS, puis ce qui va générer un nouveau
+fichier dts.
 
+Dans le dossier "tp_linux.zip" dézipper "VEEK-MT2S_v.1.0.3_SystemCD.zip"
 
-
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/560f3a34-7c34-4e24-9166-76bab9abc77e)<br>
 
 
 
