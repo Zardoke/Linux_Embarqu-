@@ -147,11 +147,18 @@ La commande "uname -a" (ou -all) affiche toutes les informations disponibles sur
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/447d0424-2739-4f50-8d24-bf8beaa9dee1)<br>
 
 <h3>2.3.1 Préparation de la compilation</h3>
+On utilise la commande (sudo) pour avoir les droits administrateur.<br>
+" sudo apt install bc" est un calculateur arithmétique de précision arbitraire qui est souvent utilisé dans les scripts de compilation du noyau Linux.<br>
+"sudo apt install crossbuild-essential-armhf" installe les paquets nécessaires pour compiler des applications pour l'architecture ARM (armhf). Cela inclut des compilateurs et des outils spécifiques pour ARM.<br>
+"sudo apt install binutils-multiarch" fournit les utilitaires de manipulation de binaires pour plusieurs architectures, y compris ARM. Cela inclut des outils comme as (assembleur), ld (éditeur de liens), etc.
 
+En résumé, ces commandes installent les outils nécessaires pour effectuer une compilation croisée (cross-compilation) pour une cible ARM sous un environnement de développement basé sur un PC avec architecture x86.<br>
 
+<h3>2.3.2 Récupéreation de la configuration actuelle du noyau</h3>
 
-
-
+1) Récupération et décompression de la configuration du noyau :
+2) Préparation de l'environnement de compilation :
+3) 
 
 
 
