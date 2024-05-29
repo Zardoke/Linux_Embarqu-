@@ -215,11 +215,18 @@ cp -r ~/src/NoyauVM/
 
 <h4>3) Puis on compile le module avec la commande "make"</h4>
 
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/27d1dd6d-e066-4886-92b1-ab0b0faacc15)<br>
+
 <h4>4) Transfert et Chargement du Module sur la Carte SoC</h4>
 Une fois le module compilé (le fichier hello.ko), on le copie sur la carte SoC. On utilise l'outil comme scp pour le transfert.
 
-![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/27d1dd6d-e066-4886-92b1-ab0b0faacc15)<br>
+<h4>5) Chargement et Vérification du Module</h4>
+Verifier que la carte SoC est bien branché est que le PC est connecté au réseau de la salle et on charge le module avec la commande "ismod hello.ko".
 
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/bd18d2cc-37dd-4176-bb99-1ace99f9b306)<br>
+Et on vérifie que le module fonctionne correctement avec la commande "dmesg" 
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/249681ef-ae9a-480e-b8cf-ff0d4df88403)<br>
+On voit bien sur les 2 dernières lignes le "Hello World ! et le "Bye bye..."
 <h3>2.3.4 Chenillard (Yes !)</h3>
 //Pas à faire//
 
