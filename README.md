@@ -141,7 +141,9 @@ Commande "sudo rmmod" mmod est utilisée pour retirer un module du noyau Linux.<
 <h3>2.3.0 Récupération du Noyau Terasic (c’est déjà fait dans la VM !)</h3>
 En ce début de séance on vérifie l'adresse IP de notre carte.
 En plus d'alimenter ma carte, je l'a connecte en USB.
-Puis on ouvre Tera Term, on se connecte au port série 
+Puis on ouvre Tera Term, on se connecte au port série.<br>
+
+La commande "uname -a" (ou -all) affiche toutes les informations disponibles sur la version du système d'exploitation et le type de la machine.<br>
 <h3>2.3.1 Préparation de la compilation</h3>
 
 
