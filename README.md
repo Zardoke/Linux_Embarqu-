@@ -144,6 +144,8 @@ En plus d'alimenter ma carte, je l'a connecte en USB.
 Puis on ouvre Tera Term, on se connecte au port série.<br>
 
 La commande "uname -a" (ou -all) affiche toutes les informations disponibles sur la version du système d'exploitation et le type de la machine.<br>
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/447d0424-2739-4f50-8d24-bf8beaa9dee1)<br>
+
 <h3>2.3.1 Préparation de la compilation</h3>
 
 
