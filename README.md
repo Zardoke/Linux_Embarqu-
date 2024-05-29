@@ -160,6 +160,9 @@ En résumé, ces commandes installent les outils nécessaires pour effectuer une
 2) Préparation de l'environnement de compilation :
 3) 
 
+On va copier le config.gz dans la VM.
+On le décompresse.
+
 
 
 
