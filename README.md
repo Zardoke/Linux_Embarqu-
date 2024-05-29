@@ -219,6 +219,7 @@ Une fois le module compilé (le fichier hello.ko), on le copie sur la carte SoC.
 
 <h3>2.3.4 Chenillard (Yes !)</h3>
 
+<h1>3 Device tree (TP3)</h1>
 
 
 
