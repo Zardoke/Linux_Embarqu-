@@ -204,6 +204,7 @@ On veut mettre àjour le chemin vers le noyau.
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/254f164a-8e6e-4827-9214-42a5bd3189cc)<br>
 
 <h4>2) Localisation du fichier Makefile :</h4><br>
+
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/d022459d-a0c5-4fd2-8e66-704a7cef35fa)<br>
 
 Compiler dans le répertoire partagé avec Windows ("opération non permise"). Il faudra donc copier
