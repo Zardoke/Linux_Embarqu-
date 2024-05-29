@@ -184,8 +184,8 @@ Copier le code
 make prepare
 make scripts
 
-4) Export CROSS_COMPILE=<chemin_arm-linux-gnueabihf-> :
-Cette ligne définit la variable d'environnement CROSS_COMPILE qui préfixe tous les outils de compilation (comme gcc, ld, etc.) avec le chemin spécifié. Le chemin doit pointer vers les outils de compilation croisée pour ARM (par exemple, /usr/bin/arm-linux-gnueabihf-). Le tiret à la fin est important car il permet de compléter les noms des outils de compilation (par exemple, arm-linux-gnueabihf-gcc).
+Export CROSS_COMPILE=<chemin_arm-linux-gnueabihf-> :
+Cette ligne définit la variable CROSS_COMPILE, préfixant les outils de compilation (gcc, ld) avec le chemin vers les outils ARM croisés (ex. /usr/bin/arm-linux-gnueabihf-). Le tiret final complète les noms des outils (ex. arm-linux-gnueabihf-gcc).
 
 export ARCH=arm :
 Cette ligne définit la variable d'environnement ARCH qui indique au système de build que l'architecture cible est ARM.
@@ -195,13 +195,14 @@ Cette commande prépare les fichiers de configuration et les dépendances néces
 
 make scripts :
 Cette commande génère des scripts nécessaires pour la compilation du noyau. Cela inclut la génération de certains scripts utilisés par les Makefiles du noyau.
-4) 
 
-On va copier le config.gz dans la VM.
-On le décompresse.
+Pourquoi le Chemin Finit par un Tiret "-"
+Le chemin dans CROSS_COMPILE se termine par un tiret - pour indiquer qu'il s'agit d'un préfixe. Ce préfixe est utilisé pour compléter les noms des différents outils de compilation croisée. Par exemple, avec CROSS_COMPILE=/usr/bin/arm-linux-gnueabihf- :
 
+gcc devient arm-linux-gnueabihf-gcc
+Le tiret final est crucial car il permet de séparer le préfixe du nom de l'outil, évitant ainsi toute confusion et permettant aux scripts de build de trouver les outils appropriés pour l'architecture cible.
 
-
+<h3>2.3.3 Hello World</h3>
 
 
 
