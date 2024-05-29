@@ -240,6 +240,16 @@ fichier dts.
 Dans le dossier "tp_linux.zip" dézipper "VEEK-MT2S_v.1.0.3_SystemCD.zip"
 
 ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/560f3a34-7c34-4e24-9166-76bab9abc77e)<br>
+Après avoir copier le fichier "soc_system.dts" dans mon répertoire de travail, je remplace ce code par celui-cidessous:
+  ![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/fd889f75-f5ed-4cc9-a904-a6b990a3c4c8)<br>
+  
+Dans Tera Term on fait "sudo apt update", puis on installer le compilateur de device-tree sur la VM :
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/1aeda7c2-9327-4468-ab44-8b2606142b31)<br>
+![image](https://github.com/Zardoke/Linux_Embarque/assets/144770542/e9d40535-18ca-44be-94b3-3a38fd465fbf)<br>
+
+On passe alors à la compilation du fichier .dts en un fichier .dtb (lisible par le noyau)
+
+
 
 
 
