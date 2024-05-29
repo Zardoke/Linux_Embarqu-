@@ -162,22 +162,29 @@ En résumé, ces commandes installent les outils nécessaires pour effectuer une
 cp /proc/config.gz ~/linux-socfpga/
 Ces commandes décompressent le fichier config.gz (qui contient la configuration actuelle du noyau) et le renomme en .config, le fichier de configuration utilisé par les scripts de compilation du noyau.
 
-3)   Décompression du fichier et renommage :
+2) <h4>Décompression du fichier et renommage :</h4>
 cd ~/linux-socfpga/
 gunzip config.gz
 mv config .config
 
-<h4>Préparation de l'Environnement de Compilation</h4>
+3) <h4>Préparation de l'Environnement de Compilation</h4>
 Ensuite, vous devez configurer l'environnement de compilation croisée pour ARM et préparer les sources du noyau :
 
-1) Définir les variables d'environnement :
+4) <h4>Définir les variables d'environnement :</h4>
 
 sh
 Copier le code
-export CROSS_COMPILE=<chemin_arm-linux-gnueabihf->
+export CROSS_COMPILE=<chemin_arm-linux-gnueabihf-></h4>
 export ARCH=arm
 
-2) Export CROSS_COMPILE=<chemin_arm-linux-gnueabihf-> :
+5) <h4>Préparer les sources du noyau :
+
+sh
+Copier le code
+make prepare
+make scripts
+
+4) Export CROSS_COMPILE=<chemin_arm-linux-gnueabihf-> :
 Cette ligne définit la variable d'environnement CROSS_COMPILE qui préfixe tous les outils de compilation (comme gcc, ld, etc.) avec le chemin spécifié. Le chemin doit pointer vers les outils de compilation croisée pour ARM (par exemple, /usr/bin/arm-linux-gnueabihf-). Le tiret à la fin est important car il permet de compléter les noms des outils de compilation (par exemple, arm-linux-gnueabihf-gcc).
 
 export ARCH=arm :
